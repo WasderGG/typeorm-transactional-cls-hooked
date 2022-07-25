@@ -23,6 +23,10 @@
     "isolation",
     "decorator"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "scripts": {
     "lint": "tslint -p tsconfig.json -c tslint.json ./src/**/*.ts",
